@@ -37,7 +37,13 @@ a {
 }
 
 .logo {
-  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 
 .logo-text {
@@ -47,7 +53,7 @@ a {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 .logo-accent {
   font-family: "Raleway", sans-serif;
@@ -71,8 +77,6 @@ a {
   background-color: #4d5ae5;
   cursor: pointer;
   border: none;
-  padding: 16px 32px;
-  border-radius: 4px;
   font-size: 16px;
 }
 
@@ -115,13 +119,11 @@ h2 {
 .page-footer {
   background-color: #2e2f42;
   color: #f4f4fd;
-  padding: 100px 0;
 }
 .footer-text {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
   margin-top: 16px;
 }
 
@@ -149,4 +151,18 @@ h2 {
 }
 .team-item {
   background-color: #ffffff;
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.footer-logo-text {
+  color: #f4f4fd;
 }
